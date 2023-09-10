@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "126954968141",
+    "project_id": "ahskin-e0378",
+    "storage_bucket": "ahskin-e0378.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126954968141:android:46e0af1dc547d19e68b804",
+        "android_client_info": {
+          "package_name": "com.example.ahskin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126954968141-kuu7241e97ju1q4r35pjburickm0ifp8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdpm8oKRc4aanpChonLsoeGqFapj_tHnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126954968141-kuu7241e97ju1q4r35pjburickm0ifp8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "126954968141-1plai9vlsa29qmhkh1rn3i7s8ji0dng0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterProviderShoppingCart.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126954968141:android:2fa6c6aa8db790cb68b804",
+        "android_client_info": {
+          "package_name": "com.example.flutter_provider_shopping_cart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126954968141-kuu7241e97ju1q4r35pjburickm0ifp8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdpm8oKRc4aanpChonLsoeGqFapj_tHnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126954968141-kuu7241e97ju1q4r35pjburickm0ifp8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "126954968141-1plai9vlsa29qmhkh1rn3i7s8ji0dng0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterProviderShoppingCart.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126954968141:android:ce33cde6dfca16dc68b804",
+        "android_client_info": {
+          "package_name": "com.example.shop_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126954968141-kuu7241e97ju1q4r35pjburickm0ifp8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdpm8oKRc4aanpChonLsoeGqFapj_tHnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126954968141-kuu7241e97ju1q4r35pjburickm0ifp8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "126954968141-1plai9vlsa29qmhkh1rn3i7s8ji0dng0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterProviderShoppingCart.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -19,19 +19,19 @@ class ColorAndSize extends StatelessWidget {
               Row(
                 children: <Widget>[
                   ColorDot(
-                    color: Color(0xFF356C95),
+                    color: Colors.orange,
                     isSelected: true,
                   ),
                   ColorDot(
-                    color: Color(0xFFF8C078),
+                    color: Colors.white,
                     isSelected: true,
                   ),
-                  ColorDot(color: Color(0xFFA29B9B), isSelected: false),
                 ],
               ),
             ],
           ),
         ),
+        /*
         Expanded(
           child: RichText(
             text: TextSpan(
@@ -49,6 +49,7 @@ class ColorAndSize extends StatelessWidget {
             ),
           ),
         ),
+        */
       ],
     );
   }

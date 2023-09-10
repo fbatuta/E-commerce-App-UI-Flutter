@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
-
-import '../../../constants.dart';
+import '../../../../constants.dart';
 
 // We need satefull widget for our categories
 
-class Categories extends StatefulWidget {
+class RaffleHome extends StatefulWidget {
   @override
-  _CategoriesState createState() => _CategoriesState();
+  _RaffleHomeState createState() => _RaffleHomeState();
 }
 
-class _CategoriesState extends State<Categories> {
-  List<String> categories = ["Raffles", "Boxes"];
+class _RaffleHomeState extends State<RaffleHome> {
+  List<String> categories = ["Single", "Duos", "Trios"];
   // By default our first item will be selected
   int selectedIndex = 0;
   @override
@@ -22,13 +21,13 @@ class _CategoriesState extends State<Categories> {
         child: ListView.builder(
           scrollDirection: Axis.horizontal,
           itemCount: categories.length,
-          itemBuilder: (context, index) => buildCategory(index),
+          itemBuilder: (context, index) => buildRaffleHome(index),
         ),
       ),
     );
   }
 
-  Widget buildCategory(int index) {
+  Widget buildRaffleHome(int index) {
     return GestureDetector(
       onTap: () {
         setState(() {

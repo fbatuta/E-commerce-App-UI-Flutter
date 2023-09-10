@@ -2,16 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:shop_app/constants.dart';
 import 'package:shop_app/models/Product.dart';
-import 'package:shop_app/screens/home/home_screen.dart';
+import 'package:shop_app/screens/details/components/add_to_cart.dart';
+import 'package:shop_app/screens/details/components/color_and_size.dart';
+import 'package:shop_app/screens/details/components/counter_with_fav_btn.dart';
+import 'package:shop_app/screens/details/components/description.dart';
+import 'package:shop_app/screens/details/components/product_title_with_image.dart';
 
-import 'components/add_to_cart.dart';
-import 'components/color_and_size.dart';
-import 'components/counter_with_fav_btn.dart';
-import 'components/description.dart';
-import 'components/product_title_with_image.dart';
-
-class DetailsScreen extends StatelessWidget {
-  const DetailsScreen({super.key, required this.product});
+class RaffleDetail extends StatelessWidget {
+  const RaffleDetail({super.key, required this.product});
 
   final Product product;
 
@@ -20,37 +18,25 @@ class DetailsScreen extends StatelessWidget {
     final Size size = MediaQuery.of(context).size;
     return Scaffold(
       // each product have a color
-      backgroundColor: Color.fromARGB(255, 58, 51, 55), //ver aqui
+      backgroundColor: Colors.white, //ver aqui
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 0, 0, 0), //ver aqui
+        backgroundColor: Colors.white, //ver aqui
         elevation: 0,
         leading: IconButton(
           icon: SvgPicture.asset(
             'assets/icons/back.svg',
-            colorFilter: ColorFilter.mode(Colors.pinkAccent, BlendMode.srcIn),
+            colorFilter: ColorFilter.mode(Colors.white, BlendMode.srcIn),
           ),
           onPressed: () => Navigator.pop(context),
         ),
         actions: <Widget>[
           IconButton(
-            //icon: SvgPicture.asset("assets/icons/search.svg"),
-            icon: Icon(
-              Icons.search_outlined,
-              color: Colors.pinkAccent,
-            ),
+            icon: SvgPicture.asset("assets/icons/search.svg"),
             onPressed: () {},
           ),
           IconButton(
-            icon: Icon(
-              Icons.shopping_cart_outlined,
-              color: Colors.pinkAccent,
-            ),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => HomeScreen()),
-              );
-            },
+            icon: SvgPicture.asset("assets/icons/cart.svg"),
+            onPressed: () {},
           ),
           SizedBox(width: kDefaultPaddin / 2)
         ],
@@ -71,7 +57,7 @@ class DetailsScreen extends StatelessWidget {
                     ),
                     // height: 500,
                     decoration: BoxDecoration(
-                      color: Color.fromARGB(255, 231, 231, 231),
+                      color: Colors.white,
                       borderRadius: BorderRadius.only(
                         topLeft: Radius.circular(24),
                         topRight: Radius.circular(24),

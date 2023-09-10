@@ -32,7 +32,10 @@ class _CartCounterState extends State<CartCounter> {
                 }
               });
             },
-            child: Icon(Icons.remove),
+            child: Icon(
+              Icons.remove,
+              color: Colors.pinkAccent,
+            ),
           ),
         ),
         Padding(
@@ -58,7 +61,10 @@ class _CartCounterState extends State<CartCounter> {
                 numOfItems++;
               });
             },
-            child: Icon(Icons.add),
+            child: Icon(
+              Icons.add,
+              color: Colors.pinkAccent,
+            ),
           ),
         ),
       ],

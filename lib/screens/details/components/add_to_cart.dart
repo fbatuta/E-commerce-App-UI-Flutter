@@ -21,13 +21,13 @@ class AddToCart extends StatelessWidget {
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(18),
               border: Border.all(
-                color: product.color,
+                color: Colors.pinkAccent,
               ),
             ),
             child: IconButton(
-              icon: SvgPicture.asset(
-                "assets/icons/add_to_cart.svg",
-                colorFilter: ColorFilter.mode(product.color, BlendMode.srcIn),
+              icon: Icon(
+                Icons.add_shopping_cart_outlined,
+                color: Colors.pinkAccent,
               ),
               onPressed: () {},
             ),
@@ -39,7 +39,7 @@ class AddToCart extends StatelessWidget {
                 minimumSize: Size(double.infinity, 48),
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(18)),
-                backgroundColor: product.color,
+                backgroundColor: Colors.pinkAccent,
               ),
               child: Text(
                 "Buy  Now".toUpperCase(),
